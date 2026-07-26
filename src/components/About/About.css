@@ -63,3 +63,28 @@ justify-content:space-between;
 }
 
 }
+
+@media(max-width:480px){
+
+.about{
+padding:70px 0;
+}
+
+.about-container{
+gap:35px;
+}
+
+.about-content h2{
+font-size:28px;
+}
+
+.stats{
+gap:20px;
+flex-wrap:wrap;
+}
+
+.stats h3{
+font-size:30px;
+}
+
+}
