@@ -55,6 +55,10 @@ color:black;
 
 @media(max-width:768px){
 
+.hero-content{
+max-width:100%;
+}
+
 .hero h1{
 font-size:42px;
 }
@@ -65,6 +69,32 @@ font-size:17px;
 
 .hero-buttons{
 flex-direction:column;
+}
+
+}
+
+@media(max-width:480px){
+
+.hero h4{
+font-size:18px;
+}
+
+.hero h1{
+font-size:32px;
+}
+
+.hero p{
+font-size:15px;
+margin-bottom:25px;
+}
+
+.hero-buttons{
+gap:14px;
+}
+
+.hero-buttons button{
+width:100%;
+text-align:center;
 }
 
 }
