@@ -45,7 +45,7 @@ function Hero() {
           animate={{opacity:1}}
           transition={{delay:.8}}
         >
-          <button>Apply Now</button>
+          <button>Journey With Us</button>
           <button className="secondary">Explore Campus</button>
         </motion.div>
 
