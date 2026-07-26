@@ -6,9 +6,9 @@ A modern, responsive redesign of the Vasant Valley School website, built with Re
 
 | Field | Value |
 |---|---|
-| Full Name | _[ADD YOUR FULL NAME]_ |
-| Intern ID | _[ADD YOUR INTERN ID]_ |
-| Email Address | _[ADD YOUR EMAIL ADDRESS]_ |
+| Full Name | Risha Hermain |
+| Intern ID | NN/A |
+| Email Address | _rishahermain39@gmail.com |
 | GitHub Username | [rishahermain7-eng](https://github.com/rishahermain7-eng) |
 | Selected Website | Vasant Valley School |
 | Live Demo Link | _[ADD YOUR VERCEL DEPLOYMENT LINK]_ |
