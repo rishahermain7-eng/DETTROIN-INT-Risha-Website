@@ -98,3 +98,28 @@ font-size:34px;
 }
 
 }
+
+@media(max-width:480px){
+
+.student-life{
+padding:70px 0;
+}
+
+.section-heading{
+margin-bottom:50px;
+}
+
+.life-row{
+gap:25px;
+margin-bottom:60px;
+}
+
+.life-image img{
+height:220px;
+}
+
+.life-content h3{
+font-size:26px;
+}
+
+}
