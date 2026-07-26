@@ -41,3 +41,33 @@ padding:30px;
 margin-bottom:15px;
 color:#0B3B6E;
 }
+
+@media(max-width:768px){
+
+.academics{
+padding:80px 0;
+}
+
+.academics h2{
+font-size:34px;
+margin-bottom:40px;
+}
+
+}
+
+@media(max-width:480px){
+
+.academic-grid{
+grid-template-columns:1fr;
+gap:25px;
+}
+
+.academic-card img{
+height:210px;
+}
+
+.academic-content{
+padding:22px;
+}
+
+}
