@@ -37,3 +37,24 @@ text-decoration:none;
 font-weight:600;
 color:#0B3B6E;
 }
+
+@media(max-width:768px){
+
+.news{
+padding:80px 0;
+}
+
+}
+
+@media(max-width:480px){
+
+.news-grid{
+grid-template-columns:1fr;
+gap:22px;
+}
+
+.news-card{
+padding:26px;
+}
+
+}
