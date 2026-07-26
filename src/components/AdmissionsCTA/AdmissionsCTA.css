@@ -1,0 +1,27 @@
+.admission{
+padding:100px 0;
+background:#0B3B6E;
+}
+
+.admission-box{
+text-align:center;
+color:white;
+}
+
+.admission-box h2{
+font-size:48px;
+margin-bottom:20px;
+}
+
+.admission-box p{
+max-width:700px;
+margin:auto;
+line-height:1.8;
+margin-bottom:35px;
+}
+
+.admission-box button{
+background:#D4AF37;
+color:black;
+font-weight:600;
+}

@@ -1,0 +1,100 @@
+.student-life{
+padding:110px 0;
+background:#f8fafc;
+}
+
+.section-heading{
+text-align:center;
+max-width:700px;
+margin:auto;
+margin-bottom:80px;
+}
+
+.section-heading span{
+color:#D4AF37;
+font-weight:600;
+letter-spacing:2px;
+text-transform:uppercase;
+}
+
+.section-heading h2{
+font-size:46px;
+margin:15px 0;
+color:#0B3B6E;
+}
+
+.section-heading p{
+color:#64748b;
+line-height:1.8;
+}
+
+.life-row{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:70px;
+align-items:center;
+margin-bottom:90px;
+}
+
+.life-row.reverse{
+direction:rtl;
+}
+
+.life-row.reverse>*{
+direction:ltr;
+}
+
+.life-image{
+overflow:hidden;
+border-radius:25px;
+box-shadow:0 20px 40px rgba(0,0,0,.12);
+}
+
+.life-image img{
+height:430px;
+object-fit:cover;
+transition:.5s;
+}
+
+.life-image:hover img{
+transform:scale(1.08);
+}
+
+.life-content h3{
+font-size:34px;
+color:#0B3B6E;
+margin-bottom:20px;
+}
+
+.life-content p{
+line-height:1.9;
+color:#555;
+margin-bottom:25px;
+}
+
+.life-content a{
+color:#0B3B6E;
+font-weight:600;
+text-decoration:none;
+}
+
+@media(max-width:900px){
+
+.life-row{
+grid-template-columns:1fr;
+gap:40px;
+}
+
+.life-row.reverse{
+direction:ltr;
+}
+
+.life-image img{
+height:280px;
+}
+
+.section-heading h2{
+font-size:34px;
+}
+
+}
