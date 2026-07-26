@@ -62,3 +62,21 @@ grid-template-columns:1fr;
 }
 
 }
+
+@media(max-width:480px){
+
+.contact{
+padding:70px 0;
+}
+
+.info-card{
+padding:20px;
+gap:15px;
+}
+
+.contact-form input,
+.contact-form textarea{
+padding:14px;
+}
+
+}

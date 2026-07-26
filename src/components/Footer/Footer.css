@@ -69,3 +69,16 @@ justify-content:center;
 }
 
 }
+
+@media(max-width:480px){
+
+.footer{
+padding-top:60px;
+}
+
+.footer-grid{
+gap:35px;
+padding-bottom:35px;
+}
+
+}
