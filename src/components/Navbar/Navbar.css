@@ -77,17 +77,65 @@ color:black;
 .menu-icon{
 display:none;
 font-size:28px;
+cursor:pointer;
+}
+
+.mobile-apply{
+display:none;
 }
 
 @media(max-width:900px){
 
-nav,
-button{
+nav{
+position:fixed;
+top:0;
+right:0;
+height:100vh;
+width:min(300px,80%);
+background:white;
+flex-direction:column;
+align-items:flex-start;
+justify-content:center;
+gap:28px;
+padding:40px;
+box-shadow:-10px 0 30px rgba(0,0,0,.15);
+transform:translateX(100%);
+transition:transform .35s ease;
+z-index:1001;
+}
+
+nav.open{
+transform:translateX(0);
+}
+
+.desktop-apply{
 display:none;
+}
+
+nav .mobile-apply{
+display:inline-block;
+margin-top:10px;
 }
 
 .menu-icon{
 display:block;
+z-index:1002;
+}
+
+}
+
+@media(max-width:480px){
+
+.nav-container{
+height:70px;
+}
+
+.logo img{
+width:44px;
+}
+
+.logo h2{
+font-size:18px;
 }
 
 }

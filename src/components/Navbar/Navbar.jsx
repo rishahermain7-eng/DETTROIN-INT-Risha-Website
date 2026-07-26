@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 
 function Navbar() {
     const [scrolled, setScrolled] = useState(false);
+    const [menuOpen, setMenuOpen] = useState(false);
 
     useEffect(() => {
       const handleScroll = () => {
@@ -16,6 +17,9 @@ function Navbar() {
        window.removeEventListener("scroll", handleScroll);
      };
    }, []);
+
+   const closeMenu = () => setMenuOpen(false);
+
   return (
     <header className={`navbar ${scrolled ? "scrolled" : ""}`}>
       <div className="container nav-container">
@@ -28,17 +32,18 @@ function Navbar() {
           </div>
         </div>
 
-        <nav>
-          <a href="#hero">Home</a>
-          <a href="#about">About</a>
-          <a href="#academics">Academics</a>
-          <a href="#gallery">Gallery</a>
-          <a href="#contact">Contact</a>
+        <nav className={menuOpen ? "open" : ""}>
+          <a href="#hero" onClick={closeMenu}>Home</a>
+          <a href="#about" onClick={closeMenu}>About</a>
+          <a href="#academics" onClick={closeMenu}>Academics</a>
+          <a href="#gallery" onClick={closeMenu}>Gallery</a>
+          <a href="#contact" onClick={closeMenu}>Contact</a>
+          <button className="mobile-apply">Apply Now</button>
         </nav>
 
-        <button>Apply Now</button>
+        <button className="desktop-apply">Apply Now</button>
 
-        <FaBars className="menu-icon"/>
+        <FaBars className="menu-icon" onClick={() => setMenuOpen(!menuOpen)} />
 
       </div>
     </header>
